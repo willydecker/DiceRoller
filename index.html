@@ -16,14 +16,16 @@
     <input type="button" onclick="chooseOne('6 Sided Die')" value="6 Sided Die"/>
     <input type="button" onclick="chooseOne('12 Sided Die')" value="12 Sided Die"/>
     <script>
-    // Brian Capouch, ready to retire the old hat
-    // Choose a random student from a given class	
+    // Willyd trying hard to get used to commiting
+    // choose a die and get rollin	
 
     // Course rosters object
     // Note: It's an array of objects, each of which is a map
     //		and the value for each map is an array of names
 
-    var courses = { "cmp237": ['Craig Austgen','Daniel Davis','Benjamin Davisson','William Decker','Zachary Dickinson','Katie Harold','Eric Heinzman','Phillip Hofer','Troy Key','Andrew Klump','Kyle Lowtharp','Collin Mullis','Gabriel Perez','Ryan Postma','Kevin Regner','Andrew Ribicki','Connor Ring','Nathan Samano','Griffin Scott','Jared Smith'], "cmp112": ['Thaddeus Albert','Dan Amador','Bruce Anderson','Zachary Aring','Benjamin Davisson','Jace Horner','Carl Jones','Kyle Lowtharp','Declan McCarron','Collin Mullis','Yemi Ogunbameru','Andrew Ribicki','Christian Sexton','Houston Shimala','Ryan Slipher','Jared Smith','Ashlee Troop'], "cmp344": ['Craig Austgen','Daniel Davis','Dylan Gainey','Lucas Grube','Eric Heinzman','Katelyn Herre','Phillip Hofer','Andrew Klump','Ryan Postma','Nathan Samano','Danilo Zekovic'], "cmp341": ['Craig Austgen','Lucas Grube','Eric Heinzman','Phillip Hofer','Nathan Samano','Danilo Zekovic']}
+    var courses = { "6 Sided Die": ['1''2''3''4''5''6'],
+    	"12 Sided Die" : ['1','2','3','4','5','6','7','8','9','10','11','12']
+    }
  
 
     function chooseOne(course) {
